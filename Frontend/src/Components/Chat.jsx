@@ -54,7 +54,7 @@ const Chat = () => {
   return (
     <div className="flex flex-col h-screen bg-gray-900 text-white">
       <div className="flex justify-between items-center p-4 bg-gray-800">
-        <h1 className="text-lg font-semibold">💬 Chat Room</h1>
+        <h1 className="text-lg font-semibold">Chat Room</h1>
         <button
           onClick={() => {
             localStorage.removeItem("chatMessages");
